@@ -56,10 +56,10 @@ function checkCode(res) {
 }
 
 // 1.0.5 注册自定义get请求
-// export const get = (url, params = {}) => {
-//   return new Promise((resolve, reject) => {
-//     axios.get(url, { params: params }).then(res => {
+export const get = (url, params = {}) => {
+  return new Promise((resolve, reject) => {
+    axios.get(url, { params: params }).then(res => {
 
-//     })
-//   });
-// };
+    })
+  });
+};
