@@ -5,6 +5,8 @@ import FastClick from 'fastclick'
 import VueRouter from 'vue-router'
 import App from './App'
 import Home from './components/HelloFromVux'
+import axios from "axios";
+Vue.prototype.$http = axios;
 
 Vue.use(VueRouter)
 
